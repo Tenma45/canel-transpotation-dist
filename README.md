@@ -26,17 +26,17 @@ v.1.2
 # patch note
 
 v.1.1
-fix bug
-add grid on result image
+- fix bug  
+- add grid on result image
 
 v.1.2
-add 3 parameters input
-1. edge detection threshold (default 300) (should be 1-500)
-decreasing this value for easier edge detection. (for the case result is not exists enough)
-increasing this value for harder edge detection. (for the case result is on wrong place (calculated on noise edge))
-2. minimum width filter (default 20) (should be 1-50)
-If edge's width is not reach this value, it will be removed.
-decreasing this value for less width-filter, thinner edge will be appear more.
-3. minimum length filter (default 40) (should be 1-100)
-If edge's length is not reach this value, it will be removed.
-decreasing this value for less length-filter, shorter edge will be appear more.
+- add 3 parameters input
+1. edge detection threshold (default 300) (should be 1-500)  
+decreasing this value for easier edge detection. (for the case result is not exists enough)  
+increasing this value for harder edge detection. (for the case result is on wrong place (calculated on noise edge))  
+3. minimum width filter (default 20) (should be 1-50)  
+If edge's width is not reach this value, it will be removed.  
+decreasing this value for less width-filter, thinner edge will be appear more.  
+4. minimum length filter (default 40) (should be 1-100)  
+If edge's length is not reach this value, it will be removed.  
+decreasing this value for less length-filter, shorter edge will be appear more.  
